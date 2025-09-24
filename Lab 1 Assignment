@@ -1,0 +1,40 @@
+#Lab 1 Assignment - R Basics & Data Fall 2025
+
+#x <- 5
+#typeof(x)
+#x<-"a"
+#typeof(x)
+#x <- c(2, 2, 4, 5, 7, 10, 11, 9, 10)
+#print(x[5])
+#x<- c(1,2,3,4,5)
+#for(i in x){
+#  print(i)
+#}
+#x <- 1:5
+#sapply(x, function(v) v^2)
+#x <- 1:5
+#out <- numeric(length(x))
+#names(out) <- x
+#for (i in seq_along(x)) {
+#  out[i] <- x[i]^2
+#}
+#out
+#x <- 1:5
+#sapply(x, function(v) v^2)
+# <- 1:5
+#out <- numeric(length(x))
+#for (i in seq_along(x)) out[i] <- x[i]^2
+#out
+#iris <- read.csv("iris.txt", header = TRUE)
+#summary(iris)
+#iris[2,3]
+#iris$Question Petal.length
+#[Question[2]
+#Eiris$Sepal.Length
+#iris[["sepal.length"]]
+#iris[ , "sepal.length"]
+#iris[[1]]
+#iris[, 1]
+#iris[1, "sepal.length"]
+#iris[1]
+#iris[10:20, ]
